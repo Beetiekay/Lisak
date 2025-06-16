@@ -13,7 +13,7 @@ export default {
      'seagreen':'#8fbc8f',
      'green':'#008000',
      'white':'#ffffff',
-     'redish':'#b22222'
+     'aliceblue':'#f2faff'
     },
 
   },
