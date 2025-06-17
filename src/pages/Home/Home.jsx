@@ -12,7 +12,7 @@ const Home = () => {
         <div className='flex items-center lg:mb-0 md:mb-0 mb-4'>  
         <div>
         <h1 className='text-3xl font-bold'>Natural Mineral <span className='text-green'>CLEAN WATER</span></h1>
-        <p className='text-lg'>High Natural Pure and Clean Water From NAture</p>
+        <p className='text-lg'>High Natural Pure and Clean Water From Nature</p>
         </div>   
         </div>
 
