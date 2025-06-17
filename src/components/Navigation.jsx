@@ -15,7 +15,6 @@ const Navigation = () => {
             <Link ><li className='hover:border-b-2 hover:border-b-green duration-500'>Contact</li></Link>
         </ul>
         <div className='flex gap-2 lg:items-center md:items-center items-center'>
-          <div className='lg:hidden md:hidden block'><Mobilnav/></div>
           <TiMessageTyping className='text-green text-4xl animate-pulse'/>
         </div>
     </div>
