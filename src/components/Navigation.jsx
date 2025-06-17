@@ -16,8 +16,9 @@ const Navigation = () => {
         </ul>
         <div className='flex gap-2 lg:items-center md:items-center items-center'>
           <TiMessageTyping className='text-green text-4xl animate-pulse'/>
-           <div className='lg:hidden md:hidden flex'><Mobilnav/></div>
         </div>
+        <div className='lg:hidden md:hidden flex'><Mobilnav/></div>
+
     </div>
   )
 }
