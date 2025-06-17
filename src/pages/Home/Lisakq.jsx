@@ -8,7 +8,7 @@ const Lisakq = () => {
           <img src={image} className='lg:w-[70%] md:w-[100%] w-fit' />
           <div className='py-8 flex items-center'>
             <div>
-            <h1 className='lg:text-3xl md:text-2xl text-xl font-semibold mb-4'><span className='font-bold text-green'>LISAK</span> WATER COMPANY TREATS THE WATER WITH LATEST TECHNOLOGY.</h1>
+            <h1 className='lg:text-3xl md:text-2xl text-lg font-semibold mb-4'><span className='font-bold text-green'>LISAK</span> WATER COMPANY TREATS THE WATER WITH LATEST TECHNOLOGY.</h1>
             <p className='lg:text-sm md:text-sm text-xs font-semibold'>
                 Lisak water companny is equipped with a tons stage pure & fresh water purification system which produces
                 the highest quality drinking water available. Our unique purify filteration system eliminate toxic mineral 
