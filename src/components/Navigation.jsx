@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from "../Favicon/Lisak.png";
-import { TiMessageTyping } from "react-icons/ti";
+import { TiMessageTyping, TiThMenu } from "react-icons/ti";
 import Mobilnav from './mobil/Mobilnav';
 
 const Navigation = () => {
@@ -16,9 +16,13 @@ const Navigation = () => {
         </ul>
         <div className='flex gap-2 lg:items-center md:items-center items-center'>
           <TiMessageTyping className='text-green text-4xl animate-pulse'/>
-        </div>
-        <div className='lg:hidden md:hidden flex'><Mobilnav/></div>
 
+          <div>
+            <input type='checkbox' className='peer z-30 opacity-0  transition-transform outline-none absolute w-8 h-8'/>
+            <div><TiThMenu className='text-green text-2xl animate-pulse'/></div>
+            <div className='hidden peer-checked:block relative z-10'><Mobilnav/></div>
+        </div>
+        </div>
     </div>
   )
 }
