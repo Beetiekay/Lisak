@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from "../Favicon/Lisak.png";
 import { TiMessageTyping } from "react-icons/ti";
-import Mobilnav from './mobilnav';
+import Mobilnav from './mobil/Mobilnav';
 
 const Navigation = () => {
   return (
