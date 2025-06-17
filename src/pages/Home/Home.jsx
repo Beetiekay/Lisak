@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from "../../Favicon/Lisak.png";
 import bg from "../../assets/water.png"
+import Navigation from '../../components/Navigation';
 
 const Home = () => {
   return (
     <div className='w-[100%] h-[100vh] relative overflow-hidden bg-aliceblue flex justify-center items-center'>
         <img src={bg} className='absolute left lg:-bottom-64 md:-bottom-60 -bottom-10'/>
        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 w-[80%] relative lg:px-20 md:px-10 px-2'>
+        <Navigation/>
         <div className='flex items-center lg:mb-0 md:mb-0 mb-4'>  
         <div>
         <h1 className='text-3xl font-bold'>Natural Mineral <span className='text-green'>CLEAN WATER</span></h1>

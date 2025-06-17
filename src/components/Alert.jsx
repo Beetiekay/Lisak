@@ -10,7 +10,8 @@ export default function Alert({Visible, onClose}) {
      
       useEffect(() => {
           AOS.init({duration:1200})
-       })
+       });
+
   return(
     <div className='w-[100%] min-h-[100vh] fixed z-50 bg-green  inset-0 bg-opacity-50 backdrop-blur-sm flex justify-end items-start'>
      <div data-aos="slide-left" className='  w-[80%] h-[50vh] bg-white  p-2  rounded-l-sm'> 

@@ -6,7 +6,7 @@ import Mobilnav from './mobilnav';
 
 const Navigation = () => {
   return (
-    <div className='fixed flex items-center lg:justify-around md:justify-around justify-between lg:px-0 md:px-0 px-4 w-[100%] z-20 py-2 backdrop-blur-sm'>
+    <div className='w-[100%] fixed left-0 right-0 top-0 flex items-center lg:justify-around md:justify-around justify-between lg:px-0 md:px-0 px-4 z-20 py-2 backdrop-blur-sm'>
         <div><img src={logo} className='lg:w-20 md:w-20 w-16'/></div>
         <ul className='lg:flex md:flex hidden gap-6'>
             <Link ><li className='hover:border-b-2 hover:border-b-green duration-500'>Home</li></Link>
