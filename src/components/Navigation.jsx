@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import logo from "../Favicon/Lisak.png";
 import { TiMessageTyping } from "react-icons/ti";
-import Mobilnav from './mobilnav';
 
 const Navigation = () => {
   return (
@@ -16,7 +15,6 @@ const Navigation = () => {
         </ul>
         <div className='flex gap-2 lg:items-center md:items-center items-center'>
           <TiMessageTyping className='text-green text-4xl animate-pulse'/>
-          <div className='lg:hidden md:hidden block'><Mobilnav/></div>
         </div>
     </div>
   )
