@@ -5,7 +5,7 @@ import Navigation from '../../components/Navigation';
 
 const Home = () => {
   return (
-    <div className='w-[100%] h-[100vh] relative overflow-hidden bg-aliceblue flex justify-center items-center'>
+    <div className='w-[100%] h-[100vh] relative overflow-hidden bg-green bg-opacity-20 flex justify-center items-center'>
         <img src={bg} className='absolute left lg:-bottom-64 md:-bottom-60 -bottom-10'/>
        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 w-[80%] relative lg:px-20 md:px-10 px-2'>
         <Navigation/>
