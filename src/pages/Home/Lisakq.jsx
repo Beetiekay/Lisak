@@ -11,7 +11,7 @@ const Lisakq = () => {
            <div className='w-8 h-8 bg-green rounded-full absolute top-32 right-64 animate-ping'></div>
            <div className='w-8 h-8 bg-green rounded-full absolute top-52 right-80 animate-ping'></div>
            {/* ball */}
-          <img src={image} className='w-[100%] lg:h-[70vh] md:h-[70vh] h-[50vh] object-cover rounded-2xl' />
+          <img src={image} className='w-[100%] lg:h-[70vh] md:h-[70vh] h-[40vh] object-cover rounded-2xl' />
           <div className='py-8 flex items-center relative z-10'>
             <div>
             <h1 className='lg:text-3xl md:text-2xl text-lg font-semibold mb-4'><span className='font-bold text-green'>LISAK</span> WATER COMPANY TREATS THE WATER WITH LATEST TECHNOLOGY.</h1>
