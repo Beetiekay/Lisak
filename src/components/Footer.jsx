@@ -6,7 +6,7 @@ import { TiLocation } from 'react-icons/ti';
 
 const Footer = () => {
   return (
-    <div className='w-[100%] lg:h-[72vh] md:h-[55vh] h-[80vh] bg-aliceblue relative overflow-hidden'>
+    <div className='w-[100%] lg:h-[72vh] md:h-[55vh] h-[80vh] bg-green bg-opacity-20 relative overflow-hidden'>
         <img src={edge} className='absolute lg:-top-44 md:-top-24'/>
         <div className='relative lg:py-40  md:py-52 py-48 lg:px-40 md:px-10 px-6 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2'>
           <h1 className='lg:text-2xl md:text-2xl text-xl font-semibold text-green lg:mb-0 md:mb-0 mb-4'>Contact Us</h1>
