@@ -17,7 +17,7 @@ const Home = () => {
         </div>
 
          <div className='flex justify-end'>
-          <div className='lg:w-[60%] md:w-[90%] lg:h-[40vh] md:h-[25vh] h-[40vh] bg-green hover:border hover:scale-110 duration-700 px-4 rounded-2xl shadow-sm'>
+          <div className='lg:w-[60%] md:w-[90%] py-10 bg-green hover:border hover:scale-110 duration-700 px-4 rounded-2xl shadow-sm'>
             <div><img src={logo}/></div>
             <h1 className='text-center text-4xl opacity-75 text-white font-bold'>LISAK</h1>
             <h2 className='text-center font-mono font-semibold text-white opacity-70'>Water Solution</h2>

@@ -13,7 +13,7 @@ const Contact = () => {
             
          <p className='text-center text-sm mb-2 font-semibold text-green mt-20'>OUR SUCCESS IN NUMBERS</p> 
          <h1 className='text-3xl text-center font-semibold mb-2'>Let's Work Together</h1>
-          <p className='text-center lg:px-0 md:px-0 px-4'>
+          <p className='text-center lg:px-0 md:px-0 px-4 font-semibold'>
             Share Your Vision For Your Next Project Us. Please Contact Us For Basic Questions, We are Here To Help!
           </p>
        <div className='h-[80vh] w-[100%] relative lg:top-6 md:top-6 top-28 flex items-center justify-center'>

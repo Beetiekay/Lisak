@@ -12,7 +12,7 @@ const About = () => {
        
       <div className='lg:px-56 md:px-16 px-4 lg:mt-[69rem] md:mt-44 mt-32'>
         
-       <div className='flex items-center gap-4 mb-4 '><FaNewspaper size={25} className='text-green'/><h1 className='text-2xl font-bold'>Intro</h1></div>
+       <div className='flex items-center gap-4 mb-4 '><FaNewspaper size={25} className='text-green'/><h1 className='lg:text-2xl md:text-2xl text-sm font-bold'>Intro</h1></div>
         <div className='mb-4'>
           <div data-aos="fade-right" className='lg:border-2 md:border-2 border-0 cursor-pointer border-green p-2 lg:w-[70%] md:w-[90%] w-fit rounded-2xl'>
             <p className='font-semibold text-green mb-2'>
@@ -30,7 +30,7 @@ const About = () => {
         </div>
 
 
-        <div className='flex items-center gap-4 mb-4 '><FaNewspaper size={25} className='text-green'/><h1 className='text-2xl font-bold'>Scope of Services</h1></div>
+        <div className='flex items-center gap-4 mb-4 '><FaNewspaper size={25} className='text-green'/><h1 className='lg:text-2xl md:text-2xl text-sm font-bold'>Scope of Services</h1></div>
         <div className='mb-4'>
           <div data-aos="fade-right" className='lg:border-2 md:border-2 border-0 cursor-pointer border-green p-2 lg:w-[70%] md:w-[90%] w-fit rounded-2xl mb-4'>
             <p className='font-semibold text-green mb-2'>
@@ -77,7 +77,7 @@ const About = () => {
           </div>
         </div>
 
-        <h1 className='text-2xl font-bold mb-2'>Key Benefits:</h1>
+        <h1 className='lg:text-2xl md:text-2xl text-sm font-bold relative top-7'>Key Benefits:</h1>
         <p className=' gap-2'>
           <span className='font-bold text-6xl text-green'>.</span>
            Cost Savings: Reduction in water wastage and utility costs. 
@@ -90,41 +90,41 @@ const About = () => {
           <span className='font-bold text-6xl text-green'>.</span>
            Compliance: Adherence to local and international water safety standards.  
         </p>
-        <p className='mb-2 -mt-8 gap-2'>
+        <p className='mb-6 -mt-8 gap-2 '>
           <span className='font-bold text-6xl text-green'>.</span>
            Scalability: Flexible systems designed to grow with your needs  
         </p>
 
           
-         <h1 className='text-2xl font-bold mb-2'>Implementation Plan:</h1>
+         <h1 className='lg:text-2xl md:text-2xl text-sm font-bold mb-3'>Implementation Plan:</h1>
 
          <p className='text-sm flex items-center gap-2 mb-2'>
-          <span className='font-bold text-lg text-green'>Phase 1:</span>
+          <span className='font-bold lg:text-lg md:text-lg text-sm text-green'>Phase 1:</span>
              Initial Assessment (1-2 Weeks) 
            Site visit and analysis of current water systems. 
            Identification of specific needs and challenges. 
          </p>
 
          <p className='text-sm flex items-center gap-2 mb-2'>
-          <span className='font-bold text-lg text-green'>Phase 2:</span>
+          <span className='font-bold lg:text-lg md:text-lg text-sm text-green'>Phase 2:</span>
             : Design and Approval (2-4 Weeks) 
             Custom design of water solution systems. 
             Submission of designs for client approval. 
          </p>
          
          <p className='text-sm flex items-center gap-2 mb-2'>
-          <span className='font-bold text-lg text-green'>Phase 3:</span>
+          <span className='font-bold lg:text-lg md:text-lg text-sm text-green'>Phase 3:</span>
             Installation and Commissioning (4-6 Weeks) 
             Procurement and installation of equipment. 
             System testing and training of personnel
          </p>
 
          <p className='text-sm flex items-center gap-2 mb-6'>
-          <span className='font-bold text-lg text-green'>Phase 4:</span>
+          <span className='font-bold lg:text-lg md:text-lg text-sm text-green'>Phase 4:</span>
             Ongoing Support Regular maintenance and performance evaluations. 
          </p>
          
-          <h1 className='text-2xl font-bold mb-2'>Why Choose Us:</h1>
+          <h1 className='lg:text-2xl md:text-2xl text-sm font-bold mb-2'>Why Choose Us:</h1>
 
           <p className='text-sm flex items-center gap-2 mb-6'>
           <span className='font-bold text-lg text-green'>1</span>
